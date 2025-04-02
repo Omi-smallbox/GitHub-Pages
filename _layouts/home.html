@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <h1>{{ page.title }}</h1>
+  <p>Nice To Meet You 😼</p>
+
+  <!-- Posts 部分 -->
+  <h2>Posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- 图片部分 -->
+  <img src="/assets/cover.jpg" alt="Cover Image" class="cover-image"/>
+  <p>Just Focus On Micro-Steps for your love and rights.</p>
+</body>
+</html>
