@@ -1,6 +1,4 @@
 ---
 title: Welcome to MY Blog 😎
-
-Nice to Meet YOU Here 😜
 ---
-
+Nice To Meet You 😼
