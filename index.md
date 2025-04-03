@@ -2,5 +2,4 @@
 title: Welcome to MY Blog 😎
 ---
 Nice To Meet You 😼 
-![My Image](/assets/cover.jpg)
-     
+![Cover Image](https://Omi-smallbox.github.io/GitHub-Pages/assets/cover.jpg)
