@@ -1,7 +1,6 @@
 ---
 title: Welcome to MY Blog 😎
 ---
-Nice To Meet You 😼
-![Cover Image](/assets/cover.jpg) 
-  
+Nice To Meet You 😼 
+![My Image](/assets/cover.jpg)
      
