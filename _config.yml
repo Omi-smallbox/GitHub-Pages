@@ -1,5 +1,3 @@
 theme: minima
 future: true
-timezone: UTC
-url: "https://omi-smallbox.github.io"
-baseurl: "/Github-Pages"
+timezone: UTC 
